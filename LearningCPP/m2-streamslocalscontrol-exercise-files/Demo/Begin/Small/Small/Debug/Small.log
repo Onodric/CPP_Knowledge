@@ -1,0 +1,3 @@
+﻿  Small.cpp
+f:\workspace\cpp_knowledge\learningcpp\m2-streamslocalscontrol-exercise-files\demo\begin\small\small\small.cpp(19): warning C4305: '=': truncation from 'double' to 'float'
+  Small.vcxproj -> F:\Workspace\CPP_Knowledge\LearningCPP\m2-streamslocalscontrol-exercise-files\Demo\Begin\Small\Debug\Small.exe
