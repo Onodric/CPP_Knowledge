@@ -1,8 +1,12 @@
 #include "Account.h"
+// this include is an interface!
 
 using namespace std;
 
-Account::Account(void):balance(0)
+// for below syntax --
+// namespace::constructor:attribute
+// basically, create this class with a balance of 0.
+Account::Account():balance(0)
 {
 }
 

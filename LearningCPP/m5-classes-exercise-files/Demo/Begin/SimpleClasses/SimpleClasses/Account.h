@@ -2,6 +2,7 @@
 #include <string>
 #include "Transaction.h"
 
+// this header file is really an interface!
 class Account
 {
 private:
@@ -14,4 +15,3 @@ public:
 	bool Withdraw(int amt);
 	
 };
-
