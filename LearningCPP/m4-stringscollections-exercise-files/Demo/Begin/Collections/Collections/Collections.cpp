@@ -39,6 +39,9 @@ int main()
 
 	vi[5]=3;
 	vi[6]=-1;
+	vi[1] = 99;
+
+	cout << endl << "Using ranged (auto) for loop:" << endl;
 
 	for(auto item:vi)
 	{
@@ -46,19 +49,22 @@ int main()
 	}
 	cout << endl;
 
+	cout << endl << "Using counted (i) for loop:" << endl;
+
 	for(unsigned int i=0; i<vi.size(); i++)
 	{
 		cout << vi[i] << " ";
 	}
 	cout << endl;
 
+	cout << endl << "Using begin/end for loop:" << endl;
+
 	for(auto i = begin(vi); i != end(vi); i++)
 	{
 		cout << *i << " ";
 	}
 	cout << endl;
-
-
+	
 	sort(begin(vs),end(vs));	
 	for(auto item:vs)
 	{
